@@ -1,0 +1,263 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Typography Shrek';
+    src: url('SHREK___.TTF') format('truetype');
+}
+
+body {
+    width: 412px;
+    height: 917px;
+    background-color: #768D42;
+    overflow: hidden; /* Prevent scrolling if content exceeds frame */
+    font-family: 'Typography Shrek', sans-serif;
+    color: #593F24;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#minishrek {
+    position: absolute;
+    left: 318px;
+    top: 46px;
+    width: 23px;
+    height: 23px;
+    z-index: 11;
+}
+
+#text_tematica_shrek {
+    position: absolute;
+    left: 20px;
+    top: 758px;
+    width: 412px;
+    height: 78px;
+    font-size: 36px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_mas_detalles {
+    position: absolute;
+    left: 20px;
+    top: 879px;
+    width: 412px;
+    height: 22px;
+    font-size: 10px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_habra_swing {
+    position: absolute;
+    left: 20px;
+    top: 665px;
+    width: 412px;
+    height: 28px;
+    font-size: 26px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_habra_jazz {
+    position: absolute;
+    left: 20px;
+    top: 577px;
+    width: 412px;
+    height: 28px;
+    font-size: 26px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_en_pedro_y_leon {
+    position: absolute;
+    left: 20px;
+    top: 430px;
+    width: 412px;
+    height: 56px;
+    font-size: 26px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_dia_20_septiembre {
+    position: absolute;
+    left: 20px;
+    top: 293px;
+    width: 412px;
+    height: 28px;
+    font-size: 28px;
+    z-index: 10;
+    text-align: left;
+}
+
+#text_invitarte_fiesta {
+    position: absolute;
+    left: 0;
+    top: 204px;
+    width: 412px;
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    z-index: 10;
+}
+
+#text_es_de_mi_ogrado {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 42px;
+    width: 412px;
+    height: 60px;
+    font-size: 28px;
+    text-align: center;
+    z-index: 10;
+}
+
+#shrek_7 {
+    position: absolute;
+    left: -16px;
+    top: 389px;
+    width: 133px;
+    height: 128px;
+    transform: rotate(-20deg);
+    z-index: 5;
+}
+
+#shrek_2 {
+    position: absolute;
+    left: 225px;
+    top: -4px;
+    width: 152px;
+    height: 121px;
+    z-index: 5;
+}
+
+#shrek_12 {
+    position: absolute;
+    left: 214px;
+    top: 739px;
+    width: 206px;
+    height: 239px;
+    opacity: 0.7;
+    z-index: 5;
+}
+
+#shrek_4 {
+    position: absolute;
+    left: 263px;
+    top: 76px;
+    width: 270px;
+    height: 250px;
+    transform: rotate(66.8deg);
+    z-index: 5;
+}
+
+#shrek_9 {
+    position: absolute;
+    left: 206px;
+    top: 374px;
+    width: 324px;
+    height: 250px;
+    opacity: 0.7;
+    transform: rotate(103.21deg);
+    z-index: 5;
+}
+
+#shrek_11 {
+    position: absolute;
+    left: -20px;
+    top: 835px;
+    width: 82.78px;
+    height: 28.78px;
+    opacity: 0.7;
+    transform: rotate(-163.08deg);
+    z-index: 5;
+}
+
+#shrek_10 {
+    position: absolute;
+    left: -15.74px;
+    top: 578.11px;
+    width: 115.62px;
+    height: 107.19px;
+    opacity: 0.7;
+    transform: rotate(50.22deg);
+    z-index: 5;
+}
+
+#shrek_3 {
+    position: absolute;
+    left: -174px;
+    top: 0px;
+    width: 245px;
+    height: 250px;
+    transform: rotate(-50.78deg);
+    z-index: 5;
+}
+
+#shrek_6 {
+    position: absolute;
+    left: 256px;
+    top: 197px;
+    width: 214.98px;
+    height: 193.84px;
+    transform: rotate(114.1deg);
+    z-index: 5;
+}
+
+#shrek_1 {
+    position: absolute;
+    left: -5px;
+    top: -3px;
+    width: 256px;
+    height: 250px;
+    /* transform: rotate(149.981deg); */
+    flex-shrink: 0;
+    z-index: 5;
+}
+
+#shrek_8 {
+    position: absolute;
+    left: 32px;
+    top: 399px;
+    width: 133px;
+    height: 250px;
+    transform: rotate(51.63deg);
+    z-index: 5;
+}
+
+#shrek_5 {
+    position: absolute;
+    left: 45px;
+    top: 168.77px;
+    width: 259.18px;
+    height: 165.78px;
+    opacity: 0.7;
+    transform: rotate(-9.17deg);
+    z-index: 5;
+}
+
+#shrek_13 {
+    position: absolute;
+    left: -2px;
+    top: 532px;
+    width: 412px;
+    height: 532px;
+    opacity: 0.4;
+    transform: rotate(-21.7deg);
+    z-index: 5;
+}
