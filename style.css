@@ -14,8 +14,7 @@ body {
 }
 
 body {
-    width: 412px;
-    height: 917px;
+
     background-color: #768D42;
     overflow: hidden; /* Prevent scrolling if content exceeds frame */
     font-family: 'Typography Shrek', sans-serif;
@@ -24,14 +23,15 @@ body {
 
 #container {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 410px;
+    border: 1px solid #3a4522;
+    margin: auto;
 }
 
 #minishrek {
     position: absolute;
-    left: 318px;
-    top: 46px;
+    left: 253px;
+    top: 80px;
     width: 23px;
     height: 23px;
     z-index: 11;
@@ -40,32 +40,39 @@ body {
 #text_tematica_shrek {
     position: absolute;
     left: 20px;
-    top: 758px;
+    top: 550px;
     width: 412px;
     height: 78px;
-    font-size: 36px;
+    font-size: 40px;
     z-index: 10;
     text-align: left;
+    width: max-content;   
+    max-width: 180px;      
+    white-space: normal;
 }
 
 #text_mas_detalles {
+   background-color: #768D42;;
     position: absolute;
-    left: 20px;
-    top: 879px;
+   right: 0;
+    top: 649px;
     width: 412px;
-    height: 22px;
-    font-size: 10px;
+    font-size: 14px;
+    padding: 1px;
     z-index: 10;
     text-align: left;
+    width: max-content;   
+    max-width: 150px;      
+    white-space: normal;
+
 }
 
 #text_habra_swing {
     position: absolute;
-    left: 20px;
-    top: 665px;
-    width: 412px;
-    height: 28px;
-    font-size: 26px;
+    right: 10px;
+    top: 500px;
+    height: 40px;
+    font-size: 30px;
     z-index: 10;
     text-align: left;
 }
@@ -73,170 +80,103 @@ body {
 #text_habra_jazz {
     position: absolute;
     left: 20px;
-    top: 577px;
+    top: 421px;
     width: 412px;
-    height: 28px;
-    font-size: 26px;
+    height: 40px;
+    font-size: 32px;
     z-index: 10;
     text-align: left;
 }
 
 #text_en_pedro_y_leon {
     position: absolute;
-    left: 20px;
-    top: 430px;
+    right: 0;
+    top: 335px;
     width: 412px;
     height: 56px;
-    font-size: 26px;
+    font-size: 30px;
     z-index: 10;
-    text-align: left;
+    text-align: center;
+    width: max-content;   
+    max-width: 180px;      
+    white-space: normal;
 }
 
 #text_dia_20_septiembre {
     position: absolute;
-    left: 20px;
-    top: 293px;
+    left: 25px;
+    top: 230px;
     width: 412px;
-    height: 28px;
-    font-size: 28px;
+    height: 40px;
+    font-size: 32px;
     z-index: 10;
     text-align: left;
 }
 
+
 #text_invitarte_fiesta {
     position: absolute;
-    left: 0;
-    top: 204px;
+    left: 26px;
+    top: 115px;
     width: 412px;
     height: 60px;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     z-index: 10;
 }
 
 #text_es_de_mi_ogrado {
+    width: max-content;   /* ajusta al contenido */
+    max-width: 200px;      /* fuerza a que se corte en dos líneas */
+    white-space: normal; 
     position: absolute;
-    left: 0;
+    left: 10px;
     right: 0;
     margin: auto;
-    top: 42px;
+    top: 35px;
     width: 412px;
     height: 60px;
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
     z-index: 10;
-}
-
-#shrek_7 {
-    position: absolute;
-    left: -16px;
-    top: 389px;
-    width: 133px;
-    height: 128px;
-    transform: rotate(-20deg);
-    z-index: 5;
-}
-
-#shrek_2 {
-    position: absolute;
-    left: 225px;
-    top: -4px;
-    width: 152px;
-    height: 121px;
-    z-index: 5;
-}
-
-#shrek_12 {
-    position: absolute;
-    left: 214px;
-    top: 739px;
-    width: 206px;
-    height: 239px;
-    opacity: 0.7;
-    z-index: 5;
-}
-
-#shrek_4 {
-    position: absolute;
-    left: 263px;
-    top: 76px;
-    width: 270px;
-    height: 250px;
-    transform: rotate(66.8deg);
-    z-index: 5;
-}
-
-#shrek_9 {
-    position: absolute;
-    left: 206px;
-    top: 374px;
-    width: 324px;
-    height: 250px;
-    opacity: 0.7;
-    transform: rotate(103.21deg);
-    z-index: 5;
-}
-
-#shrek_11 {
-    position: absolute;
-    left: -20px;
-    top: 835px;
-    width: 82.78px;
-    height: 28.78px;
-    opacity: 0.7;
-    transform: rotate(-163.08deg);
-    z-index: 5;
-}
-
-#shrek_10 {
-    position: absolute;
-    left: -15.74px;
-    top: 578.11px;
-    width: 115.62px;
-    height: 107.19px;
-    opacity: 0.7;
-    transform: rotate(50.22deg);
-    z-index: 5;
-}
-
-#shrek_3 {
-    position: absolute;
-    left: -174px;
-    top: 0px;
-    width: 245px;
-    height: 250px;
-    transform: rotate(-50.78deg);
-    z-index: 5;
-}
-
-#shrek_6 {
-    position: absolute;
-    left: 256px;
-    top: 197px;
-    width: 214.98px;
-    height: 193.84px;
-    transform: rotate(114.1deg);
-    z-index: 5;
 }
 
 #shrek_1 {
     position: absolute;
     left: -5px;
     top: -3px;
-    width: 256px;
     height: 250px;
+    width: auto;
     /* transform: rotate(149.981deg); */
     flex-shrink: 0;
     z-index: 5;
 }
 
-#shrek_8 {
+#shrek_2 {
     position: absolute;
-    left: 32px;
-    top: 399px;
-    width: 133px;
-    height: 250px;
-    transform: rotate(51.63deg);
+    right: 0;
+    top: -4px;
+    height: 121px;
+    width: auto;
+    z-index: 6;
+}
+
+#shrek_3 {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    height: 319px;
+    width: auto;
+    /* transform: rotate(-50.78deg); */
+    z-index: 10;
+}
+
+#shrek_4 {
+    position: absolute;
+    right: 0;
+    top: 76px;
+    height: 300px;
+    width: auto;
     z-index: 5;
 }
 
@@ -244,20 +184,87 @@ body {
     position: absolute;
     left: 45px;
     top: 168.77px;
-    width: 259.18px;
     height: 165.78px;
+    width: auto;
     opacity: 0.7;
     transform: rotate(-9.17deg);
+    z-index: 5;
+}
+
+#shrek_6 {
+    position: absolute;
+    right: 0;
+    top: 197px;
+    height: 250px;
+    width: auto;
+    z-index: 4;
+}
+
+#shrek_7 {
+    position: absolute;
+    top: 319px;
+    left: 20px;
+    height: 151px;
+    width: auto;
+    z-index: 5;
+}
+
+#shrek_8 {
+    position: absolute;
+    left: 68px;
+    top: 331px;
+    height: 250px;
+    width: auto;
+    z-index: 3;
+}
+
+#shrek_9 {
+    position: absolute;
+    right: 0;
+    top: 327px;
+    height: 300px;
+    width: auto;
+    opacity: 0.7;
+    z-index: 5;
+}
+
+#shrek_10 {
+    position: absolute;
+    top: 480px;
+    height: 107.19px;
+    width: auto;
+    opacity: 0.7;
+    z-index: 5;
+}
+
+#shrek_11 {
+    position: absolute;
+   left: 30px;
+    top: 675px;
+    height: 80px;
+    width: auto;
+    opacity: 0.7;
+    transform: rotate(-163.08deg);
+    z-index: 5;
+}
+
+#shrek_12 {
+    position: absolute;
+    top: 539px;
+    right: 0;
+    height: 200px;
+    width: auto;
+    opacity: 0.7;
     z-index: 5;
 }
 
 #shrek_13 {
     position: absolute;
     left: -2px;
-    top: 532px;
-    width: 412px;
-    height: 532px;
+    top: 400px;
+    height: 300px;
+    width: auto;
     opacity: 0.4;
-    transform: rotate(-21.7deg);
-    z-index: 5;
+    /* transform: rotate(-21.7deg); */
+    z-index: 1;
 }
