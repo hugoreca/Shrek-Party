@@ -35,4 +35,19 @@
         <p id="text_es_de_mi_ogrado">Es de mi ogrado</p>
     </div>
 </body>
+    <script>
+    document.body.addEventListener('click', function() {
+        var audio = document.getElementById('background-music');
+        if (audio.paused) {
+            audio.play();
+        }
+    }, { once: true });
+
+    document.body.addEventListener('touchstart', function() {
+        var audio = document.getElementById('background-music');
+        if (audio.paused) {
+            audio.play();
+        }
+    }, { once: true });
+</script>
 </html>
